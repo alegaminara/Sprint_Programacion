@@ -1,0 +1,52 @@
+algoritmo
+    var
+            llarg = 300.3
+            ample1, ample2, profunditat1, profunditat2 := real
+            area1, area2, vol1, vol2, nouProfunditat1, nouProfunditat2, nouVol1, nouVol2 := entero
+    fvar
+    
+        escribirPantalla "Introduzca el valor del amplio de la piscina 1"
+        Leer y almacenar en ample1
+
+        escribirPantalla "Introduzca el valor de la profundidad de la piscina 1"
+        Leer y almacenar en profunditat1
+
+        escribirPantalla "Introduzca el valor del amplio de la piscina 2"
+        Leer y almacenar en ample2
+
+        escribirPantalla "Introduzca el valor de la profundidad de la piscina 2"
+        Leer y almacenar en profunditat2
+
+        Calcular área de cada piscina:
+            area1 = llarg * ample1 (convertir a entero)
+            area2 = llarg * ample2 (convertir a entero)
+
+        Calcular volumen de cada piscina:
+            vol1 = area1 * profunditat1 (convertir a entero)
+            vol2 = area2 * profunditat2 (convertir a entero)
+
+        Calcular la suma de amplios, áreas y volúmenes totales:
+            ampleTot = ample1 + ample2
+            llargTot = llarg
+            areaTot = area1 + area2
+            volTot = vol1 + vol2
+
+        Intercambiar profundidades:
+            nouProfunditat1 = profunditat2 (convertir a entero)
+            nouProfunditat2 = profunditat1 (convertir a entero)
+
+        Calcular nuevo volumen para cada piscina tras el intercambio de profundidades:
+            nouVol1 = area1 * nouProfunditat1
+            nouVol2 = area2 * nouProfunditat2
+
+        escribirPantalla resultados:
+            escribirPantalla "Àrea 1 =", area1, "àrea 2 =", area2
+            escribirPantalla "Àrea tot =", areaTot
+            escribirPantalla "Volum 1 =", vol1, "volum 2 =", vol2
+            escribirPantalla "Volum tot =", volTot
+            escribirPantalla "Llarg piscines juntes =", llargTot
+            escribirPantalla "Ample piscines juntes =", ampleTot
+            escribirPantalla "Volum nou piscina 2 =", nouVol1
+            escribirPantalla "Volum nou piscina 1 =", nouVol2
+
+Falgoritmo

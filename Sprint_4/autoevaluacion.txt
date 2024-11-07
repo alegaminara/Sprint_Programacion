@@ -1,0 +1,21 @@
+*Avaluació*
+
+Avalua el teu programa segons els criteris de la taula d'avaluació i omple aquí quina ha estat la teva puntuació
+Robust: 2
+Claredat i ordre: 2
+Indentacions: 2
+Comentaris: 0
+Variables: 2
+Correcte: 2 
+Correcció en lliurament: 2
+Puntuació final: 12/14
+
+*Resultats de passar el joc de proves*
+
+Omple aquest apartat amb els resultats de passar el joc de proves que tens més abaix
+CAS 1: ERROR. El registro no puede ser mayor que 499 ni más pequeño que 1 
+CAS 2: ERROR. El registro no puede ser mayor que 499 ni más pequeño que 1
+CAS 3: El puntaje del niño es de 75
+CAS 4: El puntaje del niño es de 100
+CAS 5: El puntaje del niño es de 20
+CAS 6: ERROR. Solo puede responder con 1 para indicar 'Sí' y con 0 para indicar No. ¿Tiene el niño alguna discapacidad o enfermedad crónica? (1[Sí]/0[No]) (bucle)
