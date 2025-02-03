@@ -10,5 +10,6 @@ public class nombre {
         System.out.println("¡Hola! Mi nombre es " + nombre);
 
         input.close();
+        // comentario
     }
 }
